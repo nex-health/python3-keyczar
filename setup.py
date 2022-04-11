@@ -31,9 +31,9 @@ Operating System :: Unix
 doclines = __doc__.split("\n")
 
 extra = {}
-if sys.version_info >= (3,):
-    extra['use_2to3'] = True
-    
+# if sys.version_info >= (3,):
+#     extra['use_2to3'] = True
+
 setup(name='python3-keyczar',
       description='Toolkit for safe and simple cryptography',
       author='Arkajit Dey',
